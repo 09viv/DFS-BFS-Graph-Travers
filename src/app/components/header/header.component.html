@@ -7,6 +7,7 @@
   <title>GraphExplorer Pro</title>
   <link href="./style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
 </head>
@@ -127,6 +128,7 @@
             <li>Pathfinding in mazes</li>
             <li>Topological sorting</li>
           </ul>
+         <a href="./Algorithms/dfs.html"> <button type="submit" class="btn btn-primary">Explore</button></a>
         </div>
       </div>
 
@@ -190,21 +192,24 @@
                      <li>Detecting cycles in graphs</li>
                      <li>Pathfinding in mazes</li>
                      <li>Topological sorting</li>
-                 </ul>`,
+                 </ul>
+                  <a href="./Algorithms/dfs.html"> <button type="submit" class="btn btn-primary">Explore</button></a>`,
         "bfs": `<h3>Breadth-First Search (BFS)</h3>
                  <p>BFS is a graph traversal algorithm that explores neighbors before moving to the next level. It's commonly used for:</p>
                  <ul>
                      <li>Finding the shortest path in unweighted graphs</li>
                      <li>Level-order traversal in trees</li>
                      <li>Networking and web crawlers</li>
-                 </ul>`,
+                 </ul>
+                  <a href="./Algorithms/bfs.html"> <button type="submit" class="btn btn-primary">Explore</button></a>`,
         "dijkstra": `<h3>Dijkstra's Algorithm</h3>
                  <p>Dijkstra's is a shortest path algorithm for finding the shortest paths between nodes in a graph, particularly useful for:</p>
                  <ul>
                      <li>GPS Navigation Systems</li>
                      <li>Network routing</li>
                      <li>Optimal decision-making paths</li>
-                 </ul>`
+                 </ul>
+                  <a href="./Algorithms/dfs.html"> <button type="submit" class="btn btn-primary">Explore</button></a>`
       };
 
       tabs.forEach(tab => {
